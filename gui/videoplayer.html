@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdn.plyr.io/3.5.3/plyr.js"></script>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.5.3/plyr.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="video-player">
+        <video id="player" playsinline controls>
+            <source src="" type="video/mp4" />
+        </video>
+    </div>
+    <script>
+        const player = new Plyr('#player', {
+            fullscreen: {
+                enabled: true
+            }
+        });
+
+        player.source = {
+            type: 'video',
+            sources: [
+                {
+                    src: storage.getItem('path')
+                }
+            ]
+        }
+        
+    </script>
+</body>
+
+</html>

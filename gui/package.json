@@ -1,0 +1,24 @@
+{
+  "name": "Stanley",
+  "version": "1.0.0",
+  "description": "GUI",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Saad Farhan",
+  "license": "ISC",
+  "dependencies": {
+    "autocompleter": "^4.0.2",
+    "bricks.js": "^1.8.0",
+    "datatables.net": "^1.10.23",
+    "datatables.net-dt": "^1.10.23",
+    "electron": "^4.2.12",
+    "electron-localstorage": "^1.0.5",
+    "email-validator": "^2.0.4",
+    "materialize-autocomplete": "^1.0.7",
+    "python-shell": "^1.0.8",
+    "simplelightbox": "^1.17.3",
+    "tabulator-tables": "^4.9.3"
+  }
+}

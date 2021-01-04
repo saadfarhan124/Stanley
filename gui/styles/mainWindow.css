@@ -1,0 +1,159 @@
+.gutter {
+  height: 100%;
+  background: red;
+}
+
+.message_container {
+  padding-bottom: 5px;
+  width: 52%;
+  position: fixed;
+  top: 90%;
+  left: 0;
+  display: flex;
+  background-color: red;
+}
+
+.send {
+  bottom: 34px;
+  left: 71%;
+}
+
+.send-button {
+  background-color: red;
+  color: white;
+  width: 60px;
+  border-radius: 25px;
+  font-size: 1.8rem;
+  margin-left: 25px !important;
+}
+
+.content {
+  display: flex;
+}
+
+.scroll {
+  padding: 4px;
+  background-color: white;
+  width: 500px;
+  height: -webkit-fill-available;
+  overflow-x: auto;
+  text-align: justify;
+}
+::-webkit-scrollbar {
+  width: 7px;
+  height: 0;
+}
+::-webkit-scrollbar-track {
+  margin: 54px 0 53px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: rgba(255, 255, 255, 0.3) 0 0 0 1px;
+}
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 0, 0, 0.55);
+}
+
+/* Helper Classes*/
+.color-black {
+  color: black !important;
+}
+
+.left-six {
+  left: 6px !important;
+}
+
+.small-font-size {
+  font-size: 17px !important;
+}
+
+/*Bot UI Customization*/
+.botui-message-content.text {
+  border-radius: 5px !important;
+}
+
+.botui-message-content {
+  color: white !important;
+  background-color: red !important;
+}
+.botui-message-content.human {
+  color: white !important;
+  background-color: rgb(88, 86, 86) !important;
+}
+
+.botui-actions-text-input {
+  color: black !important;
+}
+@keyframes loadingtwo {
+  0% {
+    transform: translate(0, 0);
+    background-color: #ec5353;
+  }
+  25% {
+    transform: translate(0, -3px);
+  }
+  50% {
+    transform: translate(0, 0);
+    background-color: #da8484;
+  }
+  75% {
+    transform: translate(0, 3px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.dot:nth-last-child(3) {
+  animation: loadingtwo 0.6s 0.1s linear infinite !important;
+}
+
+.dot {
+  background-color: white !important;
+}
+/*Emoji*/
+.emojionearea.emojionearea-inline {
+  height: 50px !important;
+}
+
+.emojionearea,
+.emojionearea.form-control {
+  top: 9px !important;
+  border-radius: 25px !important;
+}
+.emojionearea.emojionearea-inline > .emojionearea-editor {
+  top: 7px !important;
+  left: 35px !important;
+}
+.emojionearea.emojionearea-inline > .emojionearea-button {
+  top: 10px !important;
+  right: 94% !important;
+}
+
+.emojionearea .emojionearea-button {
+  right: 365px !important;
+}
+
+.emojionearea .emojionearea-picker.emojionearea-picker-position-top {
+  left: 5px !important;
+}
+
+.emojionearea
+  .emojionearea-picker.emojionearea-picker-position-top
+  .emojionearea-wrapper:after {
+  left: 15px !important;
+  right: 0 !important;
+}
+
+/*Granim JS*/
+#canvas-basic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}

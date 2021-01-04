@@ -1,0 +1,185 @@
+body{
+    background-color: black;
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 9999;
+    transition: 2s ease-in;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+    transition: 200ms ease;
+}
+p, label, h1, h2, h3,h4,h5,h6,td,input{
+    color: white !important;
+}
+.botui-container {
+    background-color:transparent !important;     
+}
+
+.vanta-canvas{
+    position: fixed !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+.card{
+    border: none !important;
+    background-color: black !important;
+}
+.card-image{
+    height: 100%;
+}
+.card-content{
+    padding-left: 10px !important;
+    padding-bottom: 45px !important;
+    padding-top: 5px !important;
+}
+.card.small{
+    height: 449px !important;
+    width: 100% !important;
+    margin-bottom: 30px !important;
+}
+.card .card-reveal {
+    background-color: rgba(128,128,128,0.8) !important;
+}
+.card.small .card-image, .card.medium .card-image, .card.large .card-image {
+    max-height: 85%;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 993px){
+#toast-container {
+    top: 80% !important;
+}
+}
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #ffffff !important;
+    -webkit-box-shadow: 0 1px 0 0 #ffffff !important;
+    box-shadow: 0 1px 0 0 #ffffff !important;
+}
+input.valid:not([type]), input.valid:not([type]):focus, input.valid[type=text]:not(.browser-default), input.valid[type=text]:not(.browser-default):focus, input.valid[type=password]:not(.browser-default), input.valid[type=password]:not(.browser-default):focus, input.valid[type=email]:not(.browser-default), input.valid[type=email]:not(.browser-default):focus, input.valid[type=url]:not(.browser-default), input.valid[type=url]:not(.browser-default):focus, input.valid[type=time]:not(.browser-default), input.valid[type=time]:not(.browser-default):focus, input.valid[type=date]:not(.browser-default), input.valid[type=date]:not(.browser-default):focus, input.valid[type=datetime]:not(.browser-default), input.valid[type=datetime]:not(.browser-default):focus, input.valid[type=datetime-local]:not(.browser-default), input.valid[type=datetime-local]:not(.browser-default):focus, input.valid[type=tel]:not(.browser-default), input.valid[type=tel]:not(.browser-default):focus, input.valid[type=number]:not(.browser-default), input.valid[type=number]:not(.browser-default):focus, input.valid[type=search]:not(.browser-default), input.valid[type=search]:not(.browser-default):focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus, .select-wrapper.valid>input.select-dropdown {
+    border-bottom: 1px solid white;
+    -webkit-box-shadow: 0 1px 0 0 white;
+    box-shadow: 0 1px 0 0 white;
+}
+.btn, .btn-large, .btn-small {
+    background-color: transparent !important;
+    -webkit-box-shadow: 0px 0px !important; 
+    box-shadow: 0px 0px !important; 
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.button-register{
+    position: relative;
+    left: 20% !important;
+}
+.button-forgotpass{
+    position: relative;
+    left: 16% !important;
+}
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    transition: 2s ease;
+}
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 11px 0px;
+  }
+  input[type=date]:not(.browser-default),input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=text]:not(.browser-default) {
+    width: 50% !important;
+  }
+  .input-field.col label {
+    left: 12.2rem !important;
+}
+@font-face {
+    font-family: defaultFont;
+    src: url(CaviarDreams.ttf);
+  }
+  *{
+      font-family: defaultFont !important;
+  }
+  @font-face {
+    font-family: submit;
+    src: url(CaviarDreams_Bold.ttf);
+  }
+
+  .submit-btn{
+      font-family: submit !important;
+  }
+  .btn.disabled, .disabled.btn-large, .disabled.btn-small, .btn-floating.disabled, .btn-large.disabled, .btn-small.disabled, .btn-flat.disabled, .btn:disabled, .btn-large:disabled, .btn-small:disabled, .btn-floating:disabled, .btn-large:disabled, .btn-small:disabled, .btn-flat:disabled, .btn[disabled], .btn-large[disabled], .btn-small[disabled], .btn-floating[disabled], .btn-large[disabled], .btn-small[disabled], .btn-flat[disabled]{
+    color: #b7b7bd !important;
+    background-color: transparent !important;
+  }
+  .card-reveal-title{
+      color: white;
+      font-weight: bold !important;
+  }
+.spinner-red, .spinner-red-only {
+    border-color: white !important;
+}
+.card .card-title {
+    font-size: 23px !important;
+    color: white !important;
+}
+.select_genre{
+    left: 25% !important;
+}
+.description{
+    font-size: 10px;
+}
+select {
+    font-size: 20px !important;
+}
+.material-icons{
+    font-family: 'Material Icons' !important;
+}
+.intro-text{
+    color:white;font-size:35px;
+    position: relative;
+    bottom: 43px;
+}
+.login-container{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    z-index: 1;
+    padding: 123px 0px;
+    margin: auto;
+    width: 60%;
+}
+
+/*Video CSS*/
+.video-player{
+    display: none;
+}
+.select-dropdown{
+    width: 100% !important;
+}
+.select-wrapper input.select-dropdown{
+    border: none !important;
+}
+.dropdown-content li>a, .dropdown-content li>span{
+    color: red !important;
+}
